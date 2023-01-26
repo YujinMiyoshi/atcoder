@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int n, sum = 0;
+int n;
 
 int move(int defa_t,int defa_x,int defa_y,int t,int x,int y) {
   if (t > defa_t || x > n || y > n || x < 0 || y < 0) return 0;
